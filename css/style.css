@@ -60,3 +60,32 @@ header .logo {
   height: 100%;
 }
 header .logo img {height: 100%;}
+footer {
+  background-color: #111111;
+  color: #fff;
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+footer ul {
+  list-style: none;
+}
+footer .columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer .columns .title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+footer .columns li {
+  margin-bottom: 0.25rem;
+  line-height: 1.5rem;
+}
+
